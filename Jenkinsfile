@@ -7,15 +7,15 @@ stage("git")
 {
 steps
 {
-https://github.com/Sathiyan2002/feb26.git
+ git "https://github.com/Sathiyan2002/feb26.git"
 }
 }
 stage("Run")
 {
 step
 {
-"Demo.java"
-"main.py"
+sh "Demo.java"
+sh "main.py"
 }
 }
 }
