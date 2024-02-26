@@ -1,0 +1,2 @@
+print("sathiyan")
+print("suriya")
