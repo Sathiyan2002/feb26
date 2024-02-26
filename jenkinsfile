@@ -1,0 +1,23 @@
+pipleline
+{
+agent any
+stages
+{
+stage("git")
+{
+steps
+{
+https://github.com/Sathiyan2002/feb26.git
+}
+}
+stage("Run")
+{
+step
+{
+"Demo.java"
+"main.py"
+}
+}
+}
+}
+
