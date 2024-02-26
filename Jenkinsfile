@@ -14,8 +14,8 @@ Pipleline
   {
    steps
    {
-    sh "java Demo.java"
-    sh "python main.py"
+    "java Demo.java"
+    "python main.py"
    }
   }
  }
