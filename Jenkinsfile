@@ -1,4 +1,4 @@
-Pipleline
+pipleline
 {
  agent any
  stages
@@ -14,8 +14,8 @@ Pipleline
   {
    steps
    {
-    "java Demo.java"
-    "python main.py"
+    sh "java Demo.java"
+    sh "python main.py"
    }
   }
  }
