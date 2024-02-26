@@ -3,14 +3,14 @@ pipeline
   agent any
   stages
   {
-    stage("GIT")
+    stage("git")
     {
       steps
       {
         git "https://github.com/Sathiyan2002/feb26.git"
       }
     }
-    stage("Run")
+    stage("run")
     {
       steps
      {
